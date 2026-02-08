@@ -137,7 +137,7 @@ function checkAuth() {
 if (window.location.pathname.includes('login.html')) {
     $(document).ready(function() {
         
-        // Toggle password visibility
+        // Toggle password visibilidad
         $('#togglePassword').click(function() {
             const passwordField = $('#password');
             const icon = $(this).find('i');
